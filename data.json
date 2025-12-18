@@ -22,5 +22,41 @@
         "Total Marks": 564,
         "Average Marks": "188.00",
         "Grade": "A"
+    },
+    {
+        "Name": "jani na",
+        "Roll": "78",
+        "Marks": {
+            "Bangla": 45,
+            "English": 78,
+            "ICT": 96
+        },
+        "Total Marks": 219,
+        "Average Marks": "73.00",
+        "Grade": "B"
+    },
+    {
+        "Name": "No Name",
+        "Roll": "52",
+        "Marks": {
+            "Bangla": 85,
+            "English": 54,
+            "ICT": 639
+        },
+        "Total Marks": 778,
+        "Average Marks": "259.33",
+        "Grade": "A"
+    },
+    {
+        "Name": "No But",
+        "Roll": "120",
+        "Marks": {
+            "Bangla": 58,
+            "English": 45,
+            "ICT": 51
+        },
+        "Total Marks": 154,
+        "Average Marks": "51.33",
+        "Grade": "C"
     }
 ]

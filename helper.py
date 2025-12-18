@@ -58,6 +58,7 @@ class Student:
          with open("data.json", "r", encoding="utf-8") as file:
              server_data = json.load(file)
              listlenth = len(server_data)
+             found = False
              for i in range(listlenth):
                  one_file = server_data[i]
                  roll = one_file["Roll"]
@@ -70,10 +71,16 @@ class Student:
                     print("-" * 70)
                     print(f"Student Name : {one_file["Name"]}")
                     print(f"Student Roll : {one_file["Roll"]}")
+                    print(f"Bangla : {one_file["Marks"]["Bangla"]}")
+                    print(f"English : {one_file["Marks"]["English"]}")
+                    print(f"ICT : {one_file["Marks"]["ICT"]}")
                     print(f"Total Marks : {one_file["Total Marks"]}")
                     print(f"Average Marks : {one_file["Average Marks"]}")
                     print(f"Grade : {one_file["Grade"]}")
+                    print("-" * 70)
+                    found = True
 
-
+             if not found:
+                print(Fore.RED + "Sorry User Not Found" + Style.RESET_ALL)
 
 

@@ -43,6 +43,10 @@ if (input_option == 1):
     student = Student(name, roll, [bangla, english, ict])
     student.add_student()
 
+
 elif (input_option == 2):
     roll2 = int(input("Input Your Roll :     "))
     Student.search(roll2)
+
+elif(input_option == 3):
+    showoptions()
