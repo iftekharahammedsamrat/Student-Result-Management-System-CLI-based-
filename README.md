@@ -1,43 +1,52 @@
-# 🎯 Project Objective
-একটা Python program বানাতে হবে যেটা দিয়ে:
-ছাত্রদের নাম ও নম্বর রাখা যাবে
+# 📊 Student Result Management System (Python)
 
-Result calculate করা যাবে
+A simple **Command Line Interface (CLI)** based Student Result Management System built using Python.  
+This project allows users to add student information, calculate results, and search student results using roll numbers.
 
-Result দেখানো যাবে
+---
 
-সবকিছু terminal / command line থেকে।
+## 🚀 Features
 
-# Result Calculate করা
+- ✅ Add student details (Name, Roll, Marks)
+- ✅ Automatically calculate:
+  - Total Marks
+  - Average Marks
+  - Grade (A / B / C / Fail)
+- ✅ Save student data in JSON file
+- ✅ Search student result by roll number
+- ✅ Beginner-friendly and clean project structure
 
-Total marks
+---
 
-Average
+## 🧠 Grade System
 
-# Grade system (নিজে বানাবে, সহজভাবে)
+| Average Marks | Grade |
+|--------------|-------|
+| 80+ | A |
+| 60 – 79 | B |
+| 40 – 59 | C |
+| Below 40 | Fail |
 
-উদাহরণ:
+---
 
-80+ = A
+## 📂 Project Structure
 
-60–79 = B
+## student-result-system/
+## │
+## ├── main.py # Main program file
+## ├── helper.py # Student class & helper functions
+## ├── data.json # Stores student data (auto-generated)
+## └── README.md # Project documentation
 
-40–59 = C
 
-<40 = Fail
+---
 
-# Student Result Show করা
+## ▶️ How to Run
 
-User roll number দিলে:
+1. Make sure Python is installed on your system
+2. Clone the repository or download the files
+3. Open terminal in project folder
+4. Run the program:
 
-Name
-
-Marks
-
-Total
-
-Average
-
-Grade
-
-সব সুন্দর করে print করবে।
+```bash
+python main.py
